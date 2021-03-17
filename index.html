@@ -27,11 +27,11 @@ header{
 
 section{
     height: 100vh;
+    padding-top: 100px;
 }
 
 #section1{
     background-color: rgb(139, 170, 228);
-    padding-top: 100px;
 }
 
 #section2{
@@ -75,7 +75,8 @@ nav a{
     padding: 5px 10px;
     margin-left: 5px;
     margin-right: 5px;
-    border: 1px solid black;
+    border: 2px solid rgb(104, 52, 109);
+    border-radius: 15px 0px 15px 0px;
 }
 
 nav{
@@ -95,24 +96,26 @@ nav a:hover{
     height: 200px;
     width: 100%;
     text-align: center;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 
 .caja{
-    border: 1px solid brown;
+    border: 2px solid rgb(104, 52, 109);
+    border-radius: 15px 0px 15px 0px;
     width: 30%;
     height: 100%;
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .uno{
-    height: 200px;
+    height: 250px;
     width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid brown;
+    margin-bottom: 50px;
+    /* border: 1px solid brown; */
 }
 
 .uno img{
@@ -121,14 +124,33 @@ nav a:hover{
 }
 
 i{
-    font-size: 92px;
+    font-size: 91px;
     padding-top: 40px;
     padding-bottom: 15px;
+}
+
+i:hover{
+    
+    color: white;
 }
 
 .caja p{
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.caja p:hover{
+    color: white;
+}
+
+/***** section 2*****/
+table{
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.tabla{
+    border: 2px solid blue;
 }
 </style>
 
@@ -165,11 +187,34 @@ i{
                 <p>Compra online</p>
             </div>
         </div>
-
     </section>
     
     <section id="section2">
-
+        <table>
+            <tr>
+                <th class="tabla">Imagen</th>
+                <th class="tabla">Denominación</th>
+                <th class="tabla">Año</th>
+            </tr>
+                
+            <tr>
+                <td class="tablita">Imagen</td>
+                <td class="tablita">Denominación</td>
+                <td class="tablita">Año</td>
+            </tr>
+            
+            <tr>
+                <td class="tablita">Imagen</td>
+                <td class="tablita">Denominación</td>
+                <td class="tablita">Año</td>
+            </tr>
+            
+            <tr>
+                <td class="tablita">Imagen</td>
+                <td class="tablita">Denominación</td>
+                <td class="tablita">Año</td>
+            </tr>
+        </table>
     </section>
 
     <section id="section3">
