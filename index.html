@@ -143,13 +143,18 @@ i:hover{
     color: white;
 }
 
+
+
 /***** section 2*****/
-table{
-    width: 100%;
-    border: 2px solid blue;
+#tabla{
+    margin-left: 150px;
+    width: 80%;
+    border: 2px solid rgb(104, 52, 109);
+    text-align: center;
+    font-size: 20px
 }
 
-table img{
+#tabla img{
     opacity: 0.8;
     width: 100%;
     height: 100%;
@@ -157,25 +162,110 @@ table img{
 .tabla1{
     width: 25%;
     height: 120px;
-    border: 2px solid blue;
+    border: 2px solid rgb(104, 52, 109);
 }
 
 .tabla2{
     width: 25%;
     height: 120px;
-    border: 2px solid blue;
+    border: 2px solid rgb(104, 52, 109);
 }
 
 .tabla3{
     width: 25%;
     height: 120px;
-    border: 2px solid blue;
+    border: 2px solid rgb(104, 52, 109);
 }
 
 .tabla4{
     width: 25%;
     height: 120px;
-    border: 2px solid blue;
+    border: 2px solid rgb(104, 52, 109);
+}
+
+
+
+/***** section3 *****/
+.tablita{
+    width: 22%;
+    height: 90%;
+    margin-top: 0px;
+    margin-left: 135px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.tablita1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+
+.foto1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.foto2{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+    padding-bottom: 10px;
+}
+
+.foto3{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 170px;
+    padding-bottom: 10px;
+}
+
+
+
+/***** section4 *****/
+#logos{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.logo{
+    vertical-align: top;
+    display: inline-block;
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 600px;
+    margin-left: 10px;
+}
+
+.logo img{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 35%;
+}
+
+.logow{
+    vertical-align: top;
+    display: inline-block;
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 600px;
+    margin-left: 10px;
+}
+
+.logow img{
+    width: 75%;
+    height: 35%;
+}
+b{
+    font-size: 35px;
+    color: olive;
 }
 </style>
 
@@ -215,7 +305,7 @@ table img{
     </section>
     
     <section id="section2">
-        <table>
+        <table id="tabla">
             <tr>
                 <th>Imagen</th>
                 <th>Denominación</th>
@@ -239,14 +329,69 @@ table img{
                 <td class="tabla3">D.O. Queso Zamorano</td>
                 <td class="tabla3">2003</td>
             </tr>
+
+            <tr>
+                <td class="tabla1"><img src="queso1.jpg" alt=""></td>
+                <td class="tabla1">D.O. Castilla la Mancha</td>
+                <td class="tabla1">2009</td>
+            </tr>
         </table>
     </section>
 
     <section id="section3">
+       
+        <table class="tablita">
+            <tr>
+                <td><img src="banderait.png" class="tablita1"></td>
+            </tr>
+            <tr>
+                <td><img src="quesoit1.jpg" class="foto1"></td>
+            </tr>
+            <tr>
+                <td><img src="quesoit2.jpg" class="foto2"></td>
+            </tr>
+        </table>
+
+        <table class="tablita">
+            <tr>
+                <td><img src="banderafr.png" class="foto3"></td>
+            </tr>
+            <tr>
+                <td><img src="quesofr1.jpg" class="foto1"></td>
+            </tr>
+            <tr>
+                <td><img src="quesofr2.jpg" class="foto2"></td>
+            </tr>
+        </table >
+
+        <table class="tablita">
+            <tr>
+                <td><img src="banderasu.png" class="foto3"></td>
+            </tr>
+            <tr>
+                <td><img src="quesosu1.jpg" class="foto1"></td>
+            </tr>
+            <tr>
+                <td><img src="quesosu2.jpg" class="foto2"></td>
+            </tr>
+        </table> 
+
+        
 
     </section>
 
     <section id="section4">
+        <center><b>Contáctanos</b></center>
+         <div id="logos">
+            <div class="logo"> 
+                <a href=""><img src="twitter.png"></a></div>
+
+            <div class="logo">
+                <a href="#"><img src="facebook.webp"></a></div>
+
+            <div class="logow">
+                <a href="#"><img src="whatsapp.png"></a></div>
+        </div>
 
     </section>
 </body>
